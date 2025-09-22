@@ -1,4 +1,4 @@
-let level = document.getElementbyId('level');
+let level = document.getElementById('level');
 let count = 0;
 while (level.parentElement != null) {
 	level = level.parentElement;
